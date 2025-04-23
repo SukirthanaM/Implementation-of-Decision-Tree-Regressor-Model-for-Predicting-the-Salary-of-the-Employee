@@ -8,10 +8,21 @@ To write a program to implement the Decision Tree Regressor Model for Predicting
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
+1. Load tools for data manipulation, encoding, modeling, and evaluation.
+2. Load the CSV file into a DataFrame
+3. View the first few rows
+4.Get an overview of data types and null values.
+5.Convert text labels (like “Manager”, “Analyst”, etc.) in the Position column into numeric format.
+6.'x' (features): Independent variables — Position (encoded) and Level 
+7.'y' (target): Dependent variable — Salary.
+8.Split the dataset into 80% training data and 20% testing data.
+9.Create a decision tree model and train it on the training data.
+10.Use the trained model to predict salary values for the test set.
+11.Measures average of the squared differences between predicted and actual values.
+12.R² Score: Indicates how well the model explains variability (closer to 1 = better).
+13.Input Explanation:
+    Position = 5 (encoded value)
+    Level = 6
 
 ## Program:
 ```
