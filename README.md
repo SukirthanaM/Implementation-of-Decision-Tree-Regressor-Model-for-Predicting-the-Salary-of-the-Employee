@@ -34,6 +34,7 @@ RegisterNumber: 212224220112
 import pandas as pd
 
 df=pd.read_csv("Salary.csv")
+print("Name: Sukirthana.M\nReg.no: 212224220112")
 df.head()
 
 df.info()
@@ -69,7 +70,7 @@ dt.predict([[5, 6]])
 ```
 
 ## Output:
-![image](https://github.com/user-attachments/assets/1faa7423-4788-4b56-a54c-8620108a178d)
+![image](https://github.com/user-attachments/assets/ccd8ed6a-658e-4abf-946b-086f3ed6b259)
 ![image](https://github.com/user-attachments/assets/2e68d0a1-e821-4c3e-824e-8361329be093)
 ![image](https://github.com/user-attachments/assets/35ecfbdf-92a4-424d-b04e-71fa30cf32f8)
 ![image](https://github.com/user-attachments/assets/71c922d1-eb5b-487e-8543-b8d2fbe2f9eb)
